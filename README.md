@@ -22,7 +22,7 @@ DATA.zip file contains:
 Unzip the file and copy `datasets` and `glove` to `TransSentLog` folder
 
 ### Install experiment environment (GRU is needed)
-1. Install Anaconda 
+1. Install Anaconda (https://repo.anaconda.com/archive/      Anaconda3-2022.05*)
 2. Create an environment with Python 3.8, cudatoolkit and cudnn
 ```bash
 conda create -n transsentlog python=3.8 cudatoolkit cudnn
