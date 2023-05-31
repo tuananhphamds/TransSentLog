@@ -1,0 +1,10 @@
+could not find
+not enough space
+cannot assign
+thread dump 
+was forcibly closed 
+failed in state stopped
+retrying connect to server
+no route to host
+connection exception
+cleanup failed for

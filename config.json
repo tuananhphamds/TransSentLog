@@ -1,0 +1,55 @@
+{
+	"1": {
+		"model": "transsentlog",
+		"ntrials": 20,
+		"epochs": 20,
+		"use_tomek": true,
+		"log_length": 10,
+		"dim": 50,
+		"dropout": 0.1,
+		"num_blocks": 2,
+		"num_heads": 2,
+		"batch_size": 1024
+	},
+	"2": {
+		"model": "pylogsentiment",
+		"ntrials": 20,
+		"epochs": 20,
+		"use_tomek": true,
+		"log_length": 10,
+		"dim": 50,
+		"dropout": 0.4,
+		"units": 256,
+		"batch_size": 128
+	},
+	"3": {
+		"model": "gruattention",
+		"ntrials": 20,
+		"epochs": 20,
+		"use_tomek": true,
+		"log_length": 10,
+		"dim": 50,
+		"dropout": 0.4,
+		"units": 256,
+		"batch_size": 128
+	},
+	"4": {
+		"model": "cnn",
+		"ntrials": 20,
+		"epochs": 20,
+		"use_tomek": true,
+		"log_length": 10,
+		"dim": 50,
+		"batch_size": 128
+	},
+	"5": {
+		"model": "svm",
+		"ntrials": 1,
+		"log_length": 10
+	},
+	"6": {
+		"model": "decisiontree",
+		"ntrials": 20,
+		"log_length": 10
+	}
+}
